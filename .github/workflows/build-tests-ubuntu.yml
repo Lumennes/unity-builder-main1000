@@ -62,7 +62,7 @@ jobs:
           - true
         additionalParameters:
           - -param value
-          - -standaloneBuildSubtarget Server
+          #- -standaloneBuildSubtarget Server
         # Skipping configurations that are not supported
         exclude:
           # No il2cpp support on Linux Host
@@ -118,10 +118,10 @@ jobs:
       ###########################
       #  Set Scripting Backend  #
       ###########################
-      - name: Set Scripting Backend To il2cpp
-        if: matrix.buildWithIl2cpp == true
-        run: |
-          mv -f "./test-project/ProjectSettings/ProjectSettingsIl2cpp.asset" "./test-project/ProjectSettings/ProjectSettings.asset"
+      # - name: Set Scripting Backend To il2cpp
+        # if: matrix.buildWithIl2cpp == true
+        # run: |
+          # mv -f "./test-project/ProjectSettings/ProjectSettingsIl2cpp.asset" "./test-project/ProjectSettings/ProjectSettings.asset"
 
       ###########################
       #          Build          #
