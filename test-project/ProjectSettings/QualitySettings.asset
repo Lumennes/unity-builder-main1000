@@ -105,6 +105,7 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
+    - Standalone
   - serializedVersion: 3
     name: Medium
     pixelLightCount: 1
@@ -155,6 +156,7 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
+    - Standalone
   - serializedVersion: 3
     name: High
     pixelLightCount: 2
@@ -205,6 +207,7 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
+    - Standalone
   - serializedVersion: 3
     name: Very High
     pixelLightCount: 3
@@ -255,6 +258,7 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
+    - Standalone
   - serializedVersion: 3
     name: Ultra
     pixelLightCount: 4
@@ -305,6 +309,7 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
+    - Standalone
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
     Android: 2
@@ -315,7 +320,7 @@ QualitySettings:
     PSP2: 2
     Server: 0
     Stadia: 5
-    Standalone: 5
+    Standalone: 0
     WebGL: 0
     Windows Store Apps: 5
     XboxOne: 5
